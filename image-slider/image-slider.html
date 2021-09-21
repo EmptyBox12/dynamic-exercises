@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="container">
+        <img id="bark"data-id="1" src="./images/bark.jpeg" alt="" />
+        <img id="computer" data-id="2" src="./images/computer.jpeg" alt="" />
+        <img id="cone" data-id="3" src="./images/cone.jpeg" alt="" />
+        <img id="wet" data-id="4" src="./images/wet.jpeg" alt="" />
+      </div>
+    
+      <div class="buttons">
+        <button id="previous"><-</button>
+        <div class="circles">
+          <button class="circle" data-id="1"></button>
+          <button class="circle" data-id="2"></button>
+          <button class="circle" data-id="3"></button>
+          <button class="circle" data-id="4"></button>
+        </div>
+        <button id="next">-></button>
+      </div>
+    </div>
+  </body>
+</html>

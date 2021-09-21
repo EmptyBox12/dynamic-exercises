@@ -1,0 +1,32 @@
+.menu{
+  width: fit-content;
+}
+.menuButton{
+  border: none;
+  color: indigo;
+  font-size: 30px;
+  background-color: white;
+}
+.menuButton:hover{
+  filter:brightness(0.9);
+}
+
+.items{
+  background-color: lightblue;
+  list-style: none;
+  font-size: 15px;
+  visibility: hidden;
+  position: absolute;
+  z-index: 3;
+  width: 90px;
+  opacity: 0;
+  transition: opacity linear 0.5s, visibility 0s linear 0.5s;
+  margin: 0;
+  padding: 0;
+}
+.active{
+  opacity: 1;
+  visibility: visible;
+  transition-delay:0s;
+
+}
